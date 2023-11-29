@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7F6E522B14356B00D89BA8 /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E512B14356B00D89BA8 /* OpenGLViewController.m */; };
+		EE7F6E5F2B14365100D89BA8 /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E552B14365100D89BA8 /* AAPLMathUtilities.m */; };
+		EE7F6E612B14365100D89BA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E582B14365100D89BA8 /* main.m */; };
+		EE7F6E632B14365100D89BA8 /* VirtualCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E5E2B14365100D89BA8 /* VirtualCamera.m */; };
+		EE7F6E652B1436B200D89BA8 /* OpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E642B1436B200D89BA8 /* OpenGLRenderer.m */; };
+		EE7F6E692B1439E000D89BA8 /* fisheye2skybox.fs in Resources */ = {isa = PBXBuildFile; fileRef = EE7F6E672B1439E000D89BA8 /* fisheye2skybox.fs */; };
+		EE7F6E6A2B1439E000D89BA8 /* fisheye2skybox.vs in Resources */ = {isa = PBXBuildFile; fileRef = EE7F6E682B1439E000D89BA8 /* fisheye2skybox.vs */; };
+		EE7F6E6D2B143BCE00D89BA8 /* PicassoTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE7F6E6C2B143BCE00D89BA8 /* PicassoTower.jpg */; };
+		EEBC9A952B14C15A0045413C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC9A902B14C15A0045413C /* AppDelegate.m */; };
+		EEBC9A962B14C15A0045413C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBC9A912B14C15A0045413C /* Assets.xcassets */; };
+		EEBC9AA82B14C31D0045413C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBC9A922B14C15A0045413C /* Main.storyboard */; };
+		EEBC9AA92B14C33A0045413C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC9A9C2B14C2F00045413C /* AppDelegate.m */; };
+		EEBC9AAA2B14C33C0045413C /* AAPLMathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E552B14365100D89BA8 /* AAPLMathUtilities.m */; };
+		EEBC9AAB2B14C33F0045413C /* VirtualCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E5E2B14365100D89BA8 /* VirtualCamera.m */; };
+		EEBC9AAC2B14C3420045413C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E582B14365100D89BA8 /* main.m */; };
+		EEBC9AAD2B14C3480045413C /* OpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E642B1436B200D89BA8 /* OpenGLRenderer.m */; };
+		EEBC9AAE2B14C34C0045413C /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F6E512B14356B00D89BA8 /* OpenGLViewController.m */; };
+		EEBC9AAF2B14C3660045413C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBC9A9E2B14C2F00045413C /* LaunchScreen.storyboard */; };
+		EEBC9AB02B14C3680045413C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBC9AA02B14C2F00045413C /* Main.storyboard */; };
+		EEBC9AB12B14C36D0045413C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBC9A9D2B14C2F00045413C /* Assets.xcassets */; };
+		EEBC9AB22B14C3770045413C /* fisheye2skybox.fs in Resources */ = {isa = PBXBuildFile; fileRef = EE7F6E672B1439E000D89BA8 /* fisheye2skybox.fs */; };
+		EEBC9AB32B14C37B0045413C /* fisheye2skybox.vs in Resources */ = {isa = PBXBuildFile; fileRef = EE7F6E682B1439E000D89BA8 /* fisheye2skybox.vs */; };
+		EEBC9AB42B14C3860045413C /* PicassoTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE7F6E6C2B143BCE00D89BA8 /* PicassoTower.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE7F6E372B14349800D89BA8 /* Fisheye2Skybox_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fisheye2Skybox_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7F6E4E2B14356B00D89BA8 /* OpenGLHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLHeaders.h; sourceTree = "<group>"; };
+		EE7F6E4F2B14356B00D89BA8 /* OpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLRenderer.h; sourceTree = "<group>"; };
+		EE7F6E502B14356B00D89BA8 /* OpenGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLViewController.h; sourceTree = "<group>"; };
+		EE7F6E512B14356B00D89BA8 /* OpenGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewController.m; sourceTree = "<group>"; };
+		EE7F6E542B14365100D89BA8 /* AAPLMathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPLMathUtilities.h; path = Fisheye2Skybox/Common/AAPLMathUtilities.h; sourceTree = "<group>"; };
+		EE7F6E552B14365100D89BA8 /* AAPLMathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLMathUtilities.m; path = Fisheye2Skybox/Common/AAPLMathUtilities.m; sourceTree = "<group>"; };
+		EE7F6E582B14365100D89BA8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Fisheye2Skybox/Common/main.m; sourceTree = "<group>"; };
+		EE7F6E5B2B14365100D89BA8 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image_write.h; path = Fisheye2Skybox/Common/stb_image_write.h; sourceTree = "<group>"; };
+		EE7F6E5C2B14365100D89BA8 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = Fisheye2Skybox/Common/stb_image.h; sourceTree = "<group>"; };
+		EE7F6E5D2B14365100D89BA8 /* VirtualCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VirtualCamera.h; path = Fisheye2Skybox/Common/VirtualCamera.h; sourceTree = "<group>"; };
+		EE7F6E5E2B14365100D89BA8 /* VirtualCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VirtualCamera.m; path = Fisheye2Skybox/Common/VirtualCamera.m; sourceTree = "<group>"; };
+		EE7F6E642B1436B200D89BA8 /* OpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLRenderer.m; sourceTree = "<group>"; };
+		EE7F6E672B1439E000D89BA8 /* fisheye2skybox.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = fisheye2skybox.fs; path = Shaders/fisheye2skybox.fs; sourceTree = "<group>"; };
+		EE7F6E682B1439E000D89BA8 /* fisheye2skybox.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = fisheye2skybox.vs; path = Shaders/fisheye2skybox.vs; sourceTree = "<group>"; };
+		EE7F6E6C2B143BCE00D89BA8 /* PicassoTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PicassoTower.jpg; path = Images/PicassoTower.jpg; sourceTree = "<group>"; };
+		EEB82A812B14532600B37B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Fisheye2Skybox/README.md; sourceTree = "<group>"; };
+		EEBC9A772B14C00B0045413C /* Fisheye2Skybox_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fisheye2Skybox_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBC9A8F2B14C15A0045413C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = macOS/AppDelegate.h; sourceTree = "<group>"; };
+		EEBC9A902B14C15A0045413C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = macOS/AppDelegate.m; sourceTree = "<group>"; };
+		EEBC9A912B14C15A0045413C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = macOS/Assets.xcassets; sourceTree = "<group>"; };
+		EEBC9A932B14C15A0045413C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = macOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBC9A942B14C15A0045413C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = macOS/Info.plist; sourceTree = "<group>"; };
+		EEBC9A9B2B14C2F00045413C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iOS/AppDelegate.h; sourceTree = "<group>"; };
+		EEBC9A9C2B14C2F00045413C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iOS/AppDelegate.m; sourceTree = "<group>"; };
+		EEBC9A9D2B14C2F00045413C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iOS/Assets.xcassets; sourceTree = "<group>"; };
+		EEBC9A9F2B14C2F00045413C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iOS/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEBC9AA12B14C2F00045413C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iOS/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBC9AA22B14C2F00045413C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7F6E342B14349800D89BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBC9A742B14C00B0045413C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7F6E2E2B14349800D89BA8 = {
+			isa = PBXGroup;
+			children = (
+				EEB82A812B14532600B37B00 /* README.md */,
+				EE7F6E532B14362600D89BA8 /* Common */,
+				EE7F6E6B2B143BBE00D89BA8 /* Images */,
+				EE7F6E392B14349800D89BA8 /* Fisheye2Skybox */,
+				EE7F6E382B14349800D89BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7F6E382B14349800D89BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F6E372B14349800D89BA8 /* Fisheye2Skybox_macOS.app */,
+				EEBC9A772B14C00B0045413C /* Fisheye2Skybox_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7F6E392B14349800D89BA8 /* Fisheye2Skybox */ = {
+			isa = PBXGroup;
+			children = (
+				EEBC9A9A2B14C2BF0045413C /* iOS */,
+				EEBC9A8E2B14C0200045413C /* macOS */,
+				EE7F6E662B14398B00D89BA8 /* Shaders */,
+				EE7F6E4E2B14356B00D89BA8 /* OpenGLHeaders.h */,
+				EE7F6E4F2B14356B00D89BA8 /* OpenGLRenderer.h */,
+				EE7F6E642B1436B200D89BA8 /* OpenGLRenderer.m */,
+				EE7F6E502B14356B00D89BA8 /* OpenGLViewController.h */,
+				EE7F6E512B14356B00D89BA8 /* OpenGLViewController.m */,
+			);
+			path = Fisheye2Skybox;
+			sourceTree = "<group>";
+		};
+		EE7F6E532B14362600D89BA8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F6E542B14365100D89BA8 /* AAPLMathUtilities.h */,
+				EE7F6E552B14365100D89BA8 /* AAPLMathUtilities.m */,
+				EE7F6E582B14365100D89BA8 /* main.m */,
+				EE7F6E5B2B14365100D89BA8 /* stb_image_write.h */,
+				EE7F6E5C2B14365100D89BA8 /* stb_image.h */,
+				EE7F6E5D2B14365100D89BA8 /* VirtualCamera.h */,
+				EE7F6E5E2B14365100D89BA8 /* VirtualCamera.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EE7F6E662B14398B00D89BA8 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F6E672B1439E000D89BA8 /* fisheye2skybox.fs */,
+				EE7F6E682B1439E000D89BA8 /* fisheye2skybox.vs */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		EE7F6E6B2B143BBE00D89BA8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F6E6C2B143BCE00D89BA8 /* PicassoTower.jpg */,
+			);
+			name = Images;
+			path = Fisheye2Skybox;
+			sourceTree = "<group>";
+		};
+		EEBC9A8E2B14C0200045413C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EEBC9A8F2B14C15A0045413C /* AppDelegate.h */,
+				EEBC9A902B14C15A0045413C /* AppDelegate.m */,
+				EEBC9A912B14C15A0045413C /* Assets.xcassets */,
+				EEBC9A922B14C15A0045413C /* Main.storyboard */,
+				EEBC9A942B14C15A0045413C /* Info.plist */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		EEBC9A9A2B14C2BF0045413C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EEBC9A9B2B14C2F00045413C /* AppDelegate.h */,
+				EEBC9A9C2B14C2F00045413C /* AppDelegate.m */,
+				EEBC9A9D2B14C2F00045413C /* Assets.xcassets */,
+				EEBC9A9E2B14C2F00045413C /* LaunchScreen.storyboard */,
+				EEBC9AA02B14C2F00045413C /* Main.storyboard */,
+				EEBC9AA22B14C2F00045413C /* Info.plist */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7F6E362B14349800D89BA8 /* Fisheye2Skybox_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7F6E4B2B14349800D89BA8 /* Build configuration list for PBXNativeTarget "Fisheye2Skybox_macOS" */;
+			buildPhases = (
+				EE7F6E332B14349800D89BA8 /* Sources */,
+				EE7F6E342B14349800D89BA8 /* Frameworks */,
+				EE7F6E352B14349800D89BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fisheye2Skybox_macOS;
+			productName = Fisheye2Skybox;
+			productReference = EE7F6E372B14349800D89BA8 /* Fisheye2Skybox_macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEBC9A762B14C00B0045413C /* Fisheye2Skybox_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBC9A8B2B14C00B0045413C /* Build configuration list for PBXNativeTarget "Fisheye2Skybox_iOS" */;
+			buildPhases = (
+				EEBC9A732B14C00B0045413C /* Sources */,
+				EEBC9A742B14C00B0045413C /* Frameworks */,
+				EEBC9A752B14C00B0045413C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fisheye2Skybox_iOS;
+			productName = Fisheye2Skybox_iOS;
+			productReference = EEBC9A772B14C00B0045413C /* Fisheye2Skybox_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7F6E2F2B14349800D89BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Incremental Innovations";
+				TargetAttributes = {
+					EE7F6E362B14349800D89BA8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EEBC9A762B14C00B0045413C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE7F6E322B14349800D89BA8 /* Build configuration list for PBXProject "Fisheye2Skybox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7F6E2E2B14349800D89BA8;
+			productRefGroup = EE7F6E382B14349800D89BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBC9A762B14C00B0045413C /* Fisheye2Skybox_iOS */,
+				EE7F6E362B14349800D89BA8 /* Fisheye2Skybox_macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7F6E352B14349800D89BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBC9AA82B14C31D0045413C /* Main.storyboard in Resources */,
+				EE7F6E6A2B1439E000D89BA8 /* fisheye2skybox.vs in Resources */,
+				EE7F6E692B1439E000D89BA8 /* fisheye2skybox.fs in Resources */,
+				EE7F6E6D2B143BCE00D89BA8 /* PicassoTower.jpg in Resources */,
+				EEBC9A962B14C15A0045413C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBC9A752B14C00B0045413C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBC9AB32B14C37B0045413C /* fisheye2skybox.vs in Resources */,
+				EEBC9AB22B14C3770045413C /* fisheye2skybox.fs in Resources */,
+				EEBC9AB42B14C3860045413C /* PicassoTower.jpg in Resources */,
+				EEBC9AAF2B14C3660045413C /* LaunchScreen.storyboard in Resources */,
+				EEBC9AB02B14C3680045413C /* Main.storyboard in Resources */,
+				EEBC9AB12B14C36D0045413C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7F6E332B14349800D89BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7F6E612B14365100D89BA8 /* main.m in Sources */,
+				EEBC9A952B14C15A0045413C /* AppDelegate.m in Sources */,
+				EE7F6E652B1436B200D89BA8 /* OpenGLRenderer.m in Sources */,
+				EE7F6E522B14356B00D89BA8 /* OpenGLViewController.m in Sources */,
+				EE7F6E5F2B14365100D89BA8 /* AAPLMathUtilities.m in Sources */,
+				EE7F6E632B14365100D89BA8 /* VirtualCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBC9A732B14C00B0045413C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBC9AAC2B14C3420045413C /* main.m in Sources */,
+				EEBC9AA92B14C33A0045413C /* AppDelegate.m in Sources */,
+				EEBC9AAA2B14C33C0045413C /* AAPLMathUtilities.m in Sources */,
+				EEBC9AAB2B14C33F0045413C /* VirtualCamera.m in Sources */,
+				EEBC9AAD2B14C3480045413C /* OpenGLRenderer.m in Sources */,
+				EEBC9AAE2B14C34C0045413C /* OpenGLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEBC9A922B14C15A0045413C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBC9A932B14C15A0045413C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEBC9A9E2B14C2F00045413C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBC9A9F2B14C2F00045413C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEBC9AA02B14C2F00045413C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBC9AA12B14C2F00045413C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7F6E492B14349800D89BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE7F6E4A2B14349800D89BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE7F6E4C2B14349800D89BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fisheye2Skybox/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.Fisheye2Skybox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7F6E4D2B14349800D89BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fisheye2Skybox/macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.Fisheye2Skybox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEBC9A8C2B14C00B0045413C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Fisheye2Skybox/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.incrementalinnovations.Fisheye2Skybox-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEBC9A8D2B14C00B0045413C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Fisheye2Skybox/iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.incrementalinnovations.Fisheye2Skybox-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7F6E322B14349800D89BA8 /* Build configuration list for PBXProject "Fisheye2Skybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7F6E492B14349800D89BA8 /* Debug */,
+				EE7F6E4A2B14349800D89BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7F6E4B2B14349800D89BA8 /* Build configuration list for PBXNativeTarget "Fisheye2Skybox_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7F6E4C2B14349800D89BA8 /* Debug */,
+				EE7F6E4D2B14349800D89BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBC9A8B2B14C00B0045413C /* Build configuration list for PBXNativeTarget "Fisheye2Skybox_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBC9A8C2B14C00B0045413C /* Debug */,
+				EEBC9A8D2B14C00B0045413C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7F6E2F2B14349800D89BA8 /* Project object */;
+}
