@@ -70,6 +70,14 @@ Weblinks:
 
     "Computer Generated Angular Fisheye Projections"
 
+5) https://blog.kuula.co/fisheye-equirectangular
+
+    "https://blog.kuula.co/fisheye-equirectangular"
+
+<br />
+<br />
+<br />
+
 
 **Requirements:**
 
