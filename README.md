@@ -34,7 +34,16 @@ can be re-written as:
     vec2 uv = vec2(u, v) * 0.5 + vec2(0.5);
 ```
 
+![](Documentation/diagram_s.png)
+
+
 A single fisheye image can not be used to project a 360 degree view of the environment. A dual fisheye image is required.
+
+![](Documentation/SingleFisheye2ERP.png)
+
+
+![](Documentation/DualFisheye2ERP.png)
+
 
 <br />
 <br />
