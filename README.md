@@ -3,7 +3,7 @@
 
 This project attempts to project a single fisheye image as skybox.
 
-We expect the single fisheye image to be a perfect circular inscribed circle. 
+This demo assumes the single fisheye image is a square, centered and it fills the entire inscribed circle. 
 
 Note: The original fragment shader code was posted at weblink 1).
 
