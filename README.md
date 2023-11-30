@@ -85,8 +85,12 @@ Weblinks:
 **Requirements:**
 
 Compiled with XCode 8.3.2 running under macOS 10.12 (Sierra)
+<br />
 
 Tested with:
+<br />
 
 a) iOS OpenGL 3.0
+<br />
+
 b) macOS OpenGL Core Profile.
