@@ -40,7 +40,7 @@ can be re-written as:
     vec2 uv = vec2(u, v) * 0.5 + vec2(0.5);
 ```
 
-it is obvious the diagram's code should serve only as a guide. In fact, the concept proposed by the article can be applied to images produced by both single and dual fisheye lens. Given below are the equirectangular projecions of 2 images. The first is projected from an image taken with a single fisheye lens while the second is from a dual fisheye image.
+It is obvious the diagram's code should serve only as a guide. In fact, the concept proposed by the article can be applied to images produced by both single and dual fisheye lens. Given below are the equirectangular projecions of 2 images. The first is projected from an image taken with a single fisheye lens while the second is from a dual fisheye image.
 
 ![](Documentation/SingleFisheye2ERP.png)
 
