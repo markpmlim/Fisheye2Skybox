@@ -9,6 +9,7 @@ To compare the code in the fragment shader (fisheye2skybox.fs) with that listed 
 
 ![](Documentation/diagram_s.png)
 
+The line of code:
 
 ```glsl
     float r = 2.0 * atan(length(n.xy), abs(n.z)) / PI;
