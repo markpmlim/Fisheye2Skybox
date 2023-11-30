@@ -60,20 +60,22 @@ Weblinks:
 
 1) https://stackoverflow.com/questions/60819068/fisheye-skybox-shader
 
-2) http://paulbourke.net/dome/dualfish2sphere/
+   The fragment shader's code of this demo is lifted from the answer posted at this web link and modified to run correctly on macOS/iOS.
+
+3) http://paulbourke.net/dome/dualfish2sphere/
 
     "Converting dual fisheye images into a spherical (equirectangular) projection"
 
-3) http://paulbourke.net/dome/fish2/
+4) http://paulbourke.net/dome/fish2/
 
     "Converting a fisheye image into a panoramic, spherical or perspective projection"
 
 
-4) http://paulbourke.net/dome/fisheye/
+5) http://paulbourke.net/dome/fisheye/
 
     "Computer Generated Angular Fisheye Projections"
 
-5) https://blog.kuula.co/fisheye-equirectangular
+6) https://blog.kuula.co/fisheye-equirectangular
 
     "https://blog.kuula.co/fisheye-equirectangular"
 
