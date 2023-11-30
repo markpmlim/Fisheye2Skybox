@@ -7,7 +7,7 @@ This demo assumes the single fisheye image is a square, centered and it fills th
 
 Note: The original fragment shader code was posted at weblink 1).
 
-To compare the code in the fragment shader  (fisheye2skybox.fs) with that listed in the diagram below (which is posted at weblink 2):
+Let's compare the code in the fragment shader  (fisheye2skybox.fs) with that listed in the diagram below (which is posted at weblink 2):
 
 ![](Documentation/diagram_s.png)
 
